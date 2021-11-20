@@ -3,7 +3,7 @@ using System.Net.Http.Headers;
 using Diesel_exhaust_fluid_API_console;
 
 const string GET_URL = "https://api.odcloud.kr/api/15094782/v1/uddi:6b2017af-659d-437e-a549-c59788817675?page={0}&perPage={1}&serviceKey={2}";
-string privateApiKey = "rqYbew%2F5ukV%2FvARvKL2M4eLmsSNIvDabjN%2FaGFOvqT901bdoZLG9cDD8F1OVXpJnr55HkbRjvLuqGcebpEluIA%3D%3D";
+string privateApiKey = "개인키";
 
 System.Net.Http.HttpClient httpClient = new();
 httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue(privateApiKey);
